@@ -4,8 +4,6 @@ class Admin::JobsController < ApplicationController
   layout "admin"
 
 
-
-
   def show
     @job = Job.find(params[:id])
   end
