@@ -13,6 +13,8 @@ devise_for :users
      resources :resumes
 
    end
+
+
 end
 
 
